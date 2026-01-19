@@ -43,7 +43,7 @@ export default function SettingsClient() {
           <div className="space-y-1">
             {/* Data privacy terms */}
             <a
-              href="https://github.com/binaryshrey/DemoDay-AI/blob/main/PRIVACY_POLICY.md"
+              href="https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks/blob/main/PRIVACY_POLICY.md"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-between px-4 py-3 hover:bg-gray-50 rounded-lg transition-colors cursor-pointer"
@@ -73,7 +73,7 @@ export default function SettingsClient() {
 
             {/* Terms and conditions */}
             <a
-              href="https://github.com/binaryshrey/DemoDay-AI/blob/main/TERMS_OF_SERVICE.md"
+              href="https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks/blob/main/TERMS_OF_SERVICE.md"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-between px-4 py-3 hover:bg-gray-50 rounded-lg transition-colors cursor-pointer"
@@ -227,22 +227,22 @@ export default function SettingsClient() {
 
                           if (!apiBase) {
                             throw new Error(
-                              "DEMODAY API URL not configured. Please set NEXT_PUBLIC_DEMODAY_API_URI"
+                              "DEMODAY API URL not configured. Please set NEXT_PUBLIC_DEMODAY_API_URI",
                             );
                           }
 
                           const userId = user?.id ?? user?.email;
                           if (!userId) {
                             throw new Error(
-                              "No user id available for deletion"
+                              "No user id available for deletion",
                             );
                           }
 
                           const res = await fetch(
                             `${apiBase}/users/${encodeURIComponent(
-                              userId
+                              userId,
                             )}/data`,
-                            { method: "DELETE" }
+                            { method: "DELETE" },
                           );
 
                           if (!res.ok) {
@@ -250,7 +250,7 @@ export default function SettingsClient() {
                               .text()
                               .catch(() => res.statusText);
                             throw new Error(
-                              `Delete failed: ${res.status} ${txt}`
+                              `Delete failed: ${res.status} ${txt}`,
                             );
                           }
 
@@ -271,7 +271,7 @@ export default function SettingsClient() {
                           alert(
                             err instanceof Error
                               ? err.message
-                              : "Failed to delete account data"
+                              : "Failed to delete account data",
                           );
                           setDeleting(false);
                         }

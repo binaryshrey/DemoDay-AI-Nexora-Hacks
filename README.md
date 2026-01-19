@@ -1,4 +1,4 @@
-# DemoDay AI ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![GCS](https://img.shields.io/badge/Google%20Cloud%20Storage-4285F4?logo=googlecloud&logoColor=white) ![Cloud Run Deployed](https://img.shields.io/badge/Cloud%20Run-Deployed-4285F4?logo=googlecloud&logoColor=white) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-Active-success?logo=googlecloud) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Active-success?logo=google) ![WorkOS Auth](https://img.shields.io/badge/WorkOS%20Auth-Enabled-success?logo=workos) ![Upstash Redis](https://img.shields.io/badge/Upstash%20Redis-success-00E9A3?logo=redis&logoColor=white) ![Anam Avatars](https://img.shields.io/badge/Anam%20Avatars-1F3C88?logo=anam&logoColor=white) ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs%20Agents-000?logo=elevenlabs&logoColor=fff) ![Vercel Deploy](https://deploy-badge.vercel.app/vercel/demo-day-ai) ![BetterStack deployments](https://img.shields.io/github/deployments/binaryshrey/bubbles/production?style=flat&logo=betterstack&label=betterstack)
+# DemoDay AI [Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![GCS](https://img.shields.io/badge/Google%20Cloud%20Storage-4285F4?logo=googlecloud&logoColor=white) ![Cloud Run Deployed](https://img.shields.io/badge/Cloud%20Run-Deployed-4285F4?logo=googlecloud&logoColor=white) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-Active-success?logo=googlecloud) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Active-success?logo=google) ![WorkOS Auth](https://img.shields.io/badge/WorkOS%20Auth-Enabled-success?logo=workos) ![Upstash Redis](https://img.shields.io/badge/Upstash%20Redis-success-00E9A3?logo=redis&logoColor=white) ![Anam Avatars](https://img.shields.io/badge/Anam%20Avatars-1F3C88?logo=anam&logoColor=white) ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs%20Agents-000?logo=elevenlabs&logoColor=fff) ![Vercel Deploy](https://deploy-badge.vercel.app/vercel/demo-day-ai) ![BetterStack deployments](https://img.shields.io/github/deployments/binaryshrey/bubbles/production?style=flat&logo=betterstack&label=betterstack)
 
 DemoDay AI is a voice-first AI pitch coach that helps founders raise capital by practicing and refining their investor pitch through real-time AI voice conversations. Powered by ElevenLabs, Google Gemini on Vertex AI and RAG grounded in Y-Combinator startup knowledge and investor insights stored in Google CloudStorage and deployed over Google CloudRun, it enables founders to pitch out loud, handle challenging follow-up questions and receive clear, investor-grade feedback.
 
@@ -270,14 +270,14 @@ Returns: structured scores + strengths/risks + rewrite + `tts_summary` + citatio
 ## Assets
 
 UI components, icons, and branding assets are located at:
-`https://github.com/binaryshrey/DemoDay-AI/tree/main/demoday-app/assets`
+`https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks/tree/main/demoday-app/assets`
 
 ![ColorPalatte](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/color_pallete.png)
 
 ## Development Setup
 
 ```
-git clone https://github.com/binaryshrey/DemoDay-AI.git
+git clone https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks.git
 cd demoday-app
 npm i
 npm run dev

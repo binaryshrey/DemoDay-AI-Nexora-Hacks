@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Effective Date:** 2025-12-20
+**Effective Date:** 2025-12-30
 
 DemoDay-AI is an open-source project provided under the **Apache License, Version 2.0**.
 

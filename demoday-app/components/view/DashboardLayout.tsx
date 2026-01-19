@@ -137,14 +137,14 @@ export default function DashboardLayout({
                         item.name === "Support" ? (
                           <a
                             key={item.name}
-                            href="https://github.com/binaryshrey/DemoDay-AI/issues"
+                            href="https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks/issues"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={classNames(
                               item.current
                                 ? "bg-[#fc7249] text-white"
                                 : "text-gray-600 hover:bg-[#ffeee9] hover:text-gray-600",
-                              "group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                              "group flex items-center px-2 py-2 text-base font-medium rounded-md",
                             )}
                           >
                             <item.icon
@@ -152,7 +152,7 @@ export default function DashboardLayout({
                                 item.current
                                   ? "text-white"
                                   : "text-gray-600 group-hover:text-gray-600",
-                                "mr-4 shrink-0 h-6 w-6"
+                                "mr-4 shrink-0 h-6 w-6",
                               )}
                               aria-hidden="true"
                             />
@@ -166,7 +166,7 @@ export default function DashboardLayout({
                               item.current
                                 ? "bg-[#fc7249] text-white"
                                 : "text-gray-600 hover:bg-[#ffeee9] hover:text-gray-600",
-                              "group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                              "group flex items-center px-2 py-2 text-base font-medium rounded-md",
                             )}
                           >
                             <item.icon
@@ -174,13 +174,13 @@ export default function DashboardLayout({
                                 item.current
                                   ? "text-white"
                                   : "text-gray-600 group-hover:text-gray-600",
-                                "mr-4 shrink-0 h-6 w-6"
+                                "mr-4 shrink-0 h-6 w-6",
                               )}
                               aria-hidden="true"
                             />
                             {item.name}
                           </Link>
-                        )
+                        ),
                       )}
                     </nav>
                   </div>
@@ -243,14 +243,14 @@ export default function DashboardLayout({
                   item.name === "Support" ? (
                     <a
                       key={item.name}
-                      href="https://github.com/binaryshrey/DemoDay-AI/issues"
+                      href="https://github.com/binaryshrey/DemoDay-AI-Nexora-Hacks/issues"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={classNames(
                         item.current
                           ? "bg-[#fc7249] text-white"
                           : "text-gray-600 hover:bg-[#ffeee9] hover:text-gray-600",
-                        "group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+                        "group flex items-center px-2 py-2 text-sm font-medium rounded-md",
                       )}
                     >
                       <item.icon
@@ -258,7 +258,7 @@ export default function DashboardLayout({
                           item.current
                             ? "text-white"
                             : "text-gray-600 group-hover:text-gray-600",
-                          "mr-4 ml-1 shrink-0 h-5 w-5"
+                          "mr-4 ml-1 shrink-0 h-5 w-5",
                         )}
                         aria-hidden="true"
                       />
@@ -272,7 +272,7 @@ export default function DashboardLayout({
                         item.current
                           ? "bg-[#fc7249] text-white"
                           : "text-gray-600 hover:bg-[#ffeee9] hover:text-gray-600",
-                        "group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+                        "group flex items-center px-2 py-2 text-sm font-medium rounded-md",
                       )}
                     >
                       <item.icon
@@ -280,13 +280,13 @@ export default function DashboardLayout({
                           item.current
                             ? "text-white"
                             : "text-gray-600 group-hover:text-gray-600",
-                          "mr-4 ml-1 shrink-0 h-5 w-5"
+                          "mr-4 ml-1 shrink-0 h-5 w-5",
                         )}
                         aria-hidden="true"
                       />
                       {item.name}
                     </Link>
-                  )
+                  ),
                 )}
               </nav>
             </div>
