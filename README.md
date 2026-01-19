@@ -190,10 +190,10 @@ All interaction happens entirely through voice, simulating the flow and pressure
 
 ### 3. Live Facial Analysis (Google Cloud Vision)
 
-Throughout the pitch simulation, the system captures and analyzes the founder's non-verbal communication in real time:
+Throughout the pitch simulation, the system captures and analyzes the founder's verbal & non-verbal communication in real time:
 
-- **Facial expression tracking**: Google Cloud Vision API continuously analyzes facial expressions, detecting emotions like confidence, nervousness, joy, and stress
-- **Body language insights**: Captures eye contact patterns, head positioning, and overall engagement signals
+- **Facial expression tracking**: Google Cloud Vision API continuously analyzes facial expressions, detecting emotions like confidence, nervousness, joy and stress
+- **Body language insights**: Captures eye contact patterns, head positioning and overall engagement signals
 - **Confidence scoring**: Provides real-time metrics on presentation confidence and emotional authenticity
 - **Micro-expression analysis**: Detects subtle emotional shifts during critical pitch moments (e.g., when discussing traction or handling tough questions)
 
@@ -338,8 +338,6 @@ ANAM_AUTH_URI=XXXXX-XXXXX
 GCP_PROJECT_ID=XXXXX-XXXXX
 GCS_BUCKET_NAME=XXXXX-XXXXX
 
-UPSTASH_REDIS_REST_URL=XXXXX-XXXXX
-UPSTASH_REDIS_REST_TOKEN=XXXXX-XXXXX
 ```
 
 ## License
