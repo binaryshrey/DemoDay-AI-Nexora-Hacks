@@ -66,7 +66,32 @@ const features = [
     image: "/banner.webp",
   },
   {
-    name: "3. FEEDBACK",
+    name: "3. FACIAL ANALYSIS",
+    description: "AI-powered body language and expression insights",
+    details: [
+      {
+        title: "Real-time facial recognition",
+        text: "Track your facial expressions and body language throughout the pitch simulation.",
+      },
+      {
+        title: "Confidence scoring",
+        text: "Get detailed metrics on eye contact, emotional engagement, and confidence levels.",
+      },
+      {
+        title: "Expression analysis",
+        text: "Understand how your emotions come across to investors during key moments.",
+      },
+      {
+        title: "Presentation coaching",
+        text: "Receive actionable tips to improve your non-verbal communication and presence.",
+      },
+    ],
+    icon: Clock,
+    color: "#ff6d3b",
+    image: "/analysis.webp",
+  },
+  {
+    name: "4. FEEDBACK",
     description: "Understand how your pitch lands with investors",
     details: [
       {
@@ -91,7 +116,7 @@ const features = [
     image: "/feedback.webp",
   },
   {
-    name: "4. IMPROVE",
+    name: "5. IMPROVE",
     description: "Turn insights into measurable progress",
     details: [
       {
