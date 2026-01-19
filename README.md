@@ -188,7 +188,24 @@ The founder delivers their pitch out loud
 
 All interaction happens entirely through voice, simulating the flow and pressure of a real investor meeting.
 
-### 3. Real-Time Reasoning & Questioning
+### 3. Live Facial Analysis (Google Cloud Vision)
+
+Throughout the pitch simulation, the system captures and analyzes the founder's non-verbal communication in real time:
+
+- **Facial expression tracking**: Google Cloud Vision API continuously analyzes facial expressions, detecting emotions like confidence, nervousness, joy, and stress
+- **Body language insights**: Captures eye contact patterns, head positioning, and overall engagement signals
+- **Confidence scoring**: Provides real-time metrics on presentation confidence and emotional authenticity
+- **Micro-expression analysis**: Detects subtle emotional shifts during critical pitch moments (e.g., when discussing traction or handling tough questions)
+
+These insights are:
+
+- Processed frame-by-frame during the session
+- Stored alongside audio transcripts for comprehensive feedback
+- Used to generate coaching tips on presentation style and investor presence
+
+This helps founders understand not just what they say, but how they come across to investors—a critical factor in building trust and conviction.
+
+### 4. Real-Time Reasoning & Questioning
 
 During the session:
 
@@ -204,7 +221,7 @@ During the session:
 
 This keeps questions context-aware, non-generic and investor-realistic.
 
-### 4. Session Completion & Data Capture
+### 5. Session Completion & Data Capture
 
 Once the pitch session ends:
 
@@ -214,7 +231,7 @@ Once the pitch session ends:
 
 At this point, the founder is done speaking and feedback is generated.
 
-### 5. Structured Post-Session Feedback Report
+### 6. Structured Post-Session Feedback Report
 
 The backend generates a comprehensive investor-style report, including:
 
@@ -230,7 +247,7 @@ All feedback is:
 - Tailored to what the founder actually said
 - Focused on fundability, not polish alone
 
-### 6. Voice Feedback Playback (Instant Absorption)
+### 7. Voice Feedback Playback (Instant Absorption)
 
 To reduce cognitive load:
 
@@ -244,7 +261,7 @@ The founder can:
 - Review the full report afterward
 - Iterate and start another session
 
-### 7. Iterate Fast
+### 8. Iterate Fast
 
 Founders repeat the loop:
 
