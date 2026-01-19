@@ -69,7 +69,7 @@ Voice & Real-Time Systems
 - Sharp, realistic investor personas that probe clarity, traction, and conviction
 - Supports interruptions and follow-ups to mirror real meeting dynamics
 
-![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/pitch.png)
+![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/pitch_web.png)
 <br/>
 
 ### 🤖 AI-Powered Intelligence (Vertex AI Gemini)
