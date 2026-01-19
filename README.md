@@ -2,7 +2,7 @@
 
 DemoDay AI is a voice-first AI pitch coach that helps founders raise capital by practicing and refining their investor pitch through real-time AI voice conversations. Powered by ElevenLabs, Google Gemini on Vertex AI and RAG grounded in Y-Combinator startup knowledge and investor insights stored in Google CloudStorage and deployed over Google CloudRun, it enables founders to pitch out loud, handle challenging follow-up questions and receive clear, investor-grade feedback.
 
-![Banner](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/banner_web.webp)
+![Banner](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/banner_web_nexora.webp)
 
 ## Introducing DemoDay AI
 
@@ -69,7 +69,7 @@ Voice & Real-Time Systems
 - Sharp, realistic investor personas that probe clarity, traction, and conviction
 - Supports interruptions and follow-ups to mirror real meeting dynamics
 
-![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/pitch_web.png)
+![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/pitch_web_nexora.png)
 <br/>
 
 ### 🤖 AI-Powered Intelligence (Vertex AI Gemini)
@@ -121,8 +121,8 @@ DemoDay AI uses RAG to keep feedback realistic and grounded.
 - Concrete, prioritized improvement checklist
 - Suggested pitch rewrite based on the session
 - Concise spoken summary (tts_summary) for instant absorption
-  ![FeedbackAI](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/feedbackai.webp)
-  ![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/feedback.png)
+  ![FeedbackAI](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/feedbackai_nexora.webp)
+  ![Feedback](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/feedback_nexora.png)
   <br/>
   <br/>
 
@@ -131,7 +131,7 @@ DemoDay AI uses RAG to keep feedback realistic and grounded.
 - Multiple projects per user (idea-stage, traction-stage, fundraising)
 - Independent sessions and reports for each pitch
 - Track progress across iterations
-  ![Dashboard](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/dashboard.png)
+  ![Dashboard](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/dashboard_nexora.png)
   <br/>
   <br/>
 
@@ -139,7 +139,7 @@ DemoDay AI uses RAG to keep feedback realistic and grounded.
 
 - Secure login via WorkOS AuthKit
 - All projects, sessions, and reports scoped to individual users
-  ![Dashboard](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/signup.png)
+  ![Dashboard](https://raw.githubusercontent.com/binaryshrey/DemoDay-AI-Nexora-Hacks/refs/heads/main/demoday-app/assets/signup_nexora.png)
   <br/>
   <br/>
 
